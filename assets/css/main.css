@@ -381,6 +381,18 @@ a.inline-link {
     position: absolute;
     color: #64ffda;
 }
+.footer {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    min-height: 70px;
+    padding: 15px;
+    text-align: center;
+}
 @media (max-width: 1080px) {
     .navbar {
         padding: 0 40px;
@@ -428,7 +440,7 @@ a.inline-link {
         justify-content: center;
         -webkit-box-align: center;
         align-items: center;
-        min-width: 120px;
+        min-width: 100px;
         padding: 0 15px;
         border-left: 0;
         border-bottom: 2px solid #233554;
@@ -438,10 +450,10 @@ a.inline-link {
         top: auto;
         bottom: 0;
         width: 100%;
-        max-width: 150px;
+        max-width: 130px;
         height: 2px;
         margin-left: 50px;
-        transform: translateX(calc(0 * 150px));
+        transform: translateX(calc(0 * 130px));
     }
 }
 @media (max-width: 340px) {
