@@ -393,6 +393,29 @@ a.inline-link {
     padding: 15px;
     text-align: center;
 }
+.detail ul.course-list {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    gap: 0 50px;
+    padding: 0;
+    margin: 20px 0 0;
+    overflow: hidden;
+    list-style: none;
+}
+.detail ul.course-list li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+.detail ul.course-list li::before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    color: #64ffda;
+    font-size: 18px;
+    line-height: 20px;
+}
 @media (max-width: 1080px) {
     .navbar {
         padding: 0 40px;
